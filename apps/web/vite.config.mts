@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
+      '@': resolve(__dirname, './src'),
       '@lib': resolve(__dirname, '../../packages/lib'),
       '@ui/components': resolve(__dirname, '../../packages/ui/components')
     }
