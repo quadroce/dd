@@ -1,5 +1,6 @@
 {
   "name": "admin",
+  "type": "module",
   "version": "0.1.0",
   "description": "DropDaily Admin Dashboard",
   "main": "index.js",
